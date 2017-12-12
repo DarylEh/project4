@@ -1,0 +1,110 @@
+html{
+    font-size: 62.5%;
+    
+}
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: .3rem;
+    font-size: 5rem;
+}
+h2 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: .3rem;
+    font-size: 6.8rem;
+    text-align: center;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8rem;
+    margin: 20px;
+}
+.description {
+    border: red solid 5px;
+    padding: 10px;
+}
+.photo img {
+    border: red solid 5px;
+    
+}
+.background::after {
+    content: "";
+    background: url("../assets/background.jpg");
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    height: 100vh;  
+}
+
+// .click {
+//     font-size: 2rem;
+// 	font-family: 'Gloria Hallelujah', cursive;
+// 	cursor: pointer;
+// 	padding: 20px 25px;
+// 	color: #fff;
+// 	border: #27ae60 25px solid;
+// 	background: #2ecc71;
+// }
+.form-layout {
+    border: 1px solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.characters {
+    // display: inline-block;
+    // margin: 0 auto;
+    border: 3px solid lightgray;
+    width: 80%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+.characters:focus {
+    border: 3px solid #555;
+    
+}
+.inputBox {
+    width:100%;
+    // display: block;
+    text-align: center;
+    
+}
+.visibilityOn {
+    visibility: visible;
+}
+.results {
+    // visibility: hidden;
+}
+.vanishIntro {
+	display: none;
+}
+main {
+    // visibility: hidden;
+    
+}
+.credit {
+    display: flex;
+
+}
+.credit::after {
+    content: "";
+    background: url("../assets/background.jpg");
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    height: 100vh;  
+}
