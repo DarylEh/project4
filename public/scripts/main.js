@@ -59,7 +59,7 @@ app.showInfo = function (characterData) {
     if (characterData[0] === undefined) {
         $('#display').empty();
         console.log(characterData);
-        var template = '\n                <div class = "credit-null">\n                    <h1>Unfortunately, data does not exists in our database.</h1>\n                    <input class="reset-btn" type="reset" value="Reset" onClick="window.location.reload()">\n\n                </div>\n                ';
+        var template = '\n                <div class = "credit-null">\n                    <h1>Unfortunately, data does not exists in our database.</h1>\n                    <div class="sorry-container">\n                        <div style="width:100%;height:0;padding-bottom:66%;position:relative;"><iframe src="https://giphy.com/embed/13d2jHlSlxklVe" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/reaction-explosion-government-13d2jHlSlxklVe">via GIPHY</a></p>\n                    </div>\n                    <input class="reset-btn" type="reset" value="Reset" onClick="window.location.reload()">\n                </div>\n                ';
         $('#display').append(template);
         console.log(template);
     } else {
